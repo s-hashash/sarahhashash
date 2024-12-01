@@ -1,0 +1,48 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+    
+    <li> 
+    <b>{{ title }}</b>
+      <i style="color:#71797E">, {{post.venue}}, {{post.year}} </i> <br>
+    <p style="color:grey">{{post.author_list}}</p>          
+    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.short_text | markdownify | remove: '<p>' | remove: '</p>' }}<strong>
+<!--       <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="color:#A9A9A9; text-decoration:none" > Read more</a> -->
+    {% if post.link %}
+      <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if post.code %}
+      <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
+    {% endif %}        
+    </strong></p></p>
+    </li>
+    
+  </article>
+</div>
