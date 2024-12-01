@@ -6,9 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Hello!
 
-I’m a 1st year PhD student in the **Institute for Computational & Mathematical Engineering (ICME)** at **Stanford University**, as well as an **NDSEG Fellow** and **NSF Awardee**. I’m currently rotating with **Prof. Madeleine Udell** and **Prof. Ramesh Johari**.
+
+Hello! I’m a 1st year PhD student in the **Institute for Computational & Mathematical Engineering (ICME)** at **Stanford University**, as well as an **NDSEG Fellow** and **NSF Awardee**. I’m currently rotating with **Prof. Madeleine Udell** and **Prof. Ramesh Johari**.
 
 ## Bio
 
