@@ -1,5 +1,5 @@
 ---
-title: "Collective Identity in Collective Action: Evidence from the 2020 BLM Protests"
+title: "[Collective Identity in Collective Action: Evidence from the 2020 BLM Protests](https://sarahhashash.github.io/files/CollectiveIdentity.pdf)"
 collection: publications
 category: manuscripts
 paperurl: 'https://sarahhashash.github.io/files/CollectiveIdentity.pdf'
