@@ -1,12 +1,10 @@
 ---
-title: "Enabling Computational Democratization: A Proof-of-Stake Bounty
-System for User-Proposed Problems and Solutions."
+title: "Evaluating Characteristics of CUDA Communication Primitives on High-Bandwidth Interconnect."
 collection: publications
 category: conferences
-excerpt: 'A novel framework replaces energy-intensive Proof-of-Work (PoW) mining with a modified Proof-of-Stake (PoS) consensus mechanism that rewards miners for solving user-proposed computational problems. This approach incentivizes PoW miners to transition by allowing them to leverage their existing hardware investments.'
-date: 2023-10-10
-venue: 'MIT Undergraduate Research Technology Conference'
-citation: 'N. Arora, S. Hashash, K. Hassibi (2023). &quot;Enabling Computational Democratization: A Proof-of-Stake Bounty
-System for User-Proposed Problems and Solutions..&quot; <i>GIn MIT Undergraduate Research Technology Conference,
-2023</i>.'
+permalink: files/CUDAComm.pdf
+excerpt: 'Comm|Scope is a set of microbenchmarks designed to help system and application developers analyze and optimize memory transfer behavior across various data placement and exchange scenarios in heterogeneous systems. It evaluates CUDA data transfer primitives on architectures like POWER and x86 with interconnects such as PCIe and NVLink, providing insights into system design and application optimization.'
+date: 2019-04-07
+venue: 'International Conference on Performance Engineering'
+citation: 'C. Pearson, A. Dakkak, S. Hashash, C. Li, I. Chun, J. Xiong, (2019). &quot;Evaluating Characteristics of CUDA Communication Primitives on High-Bandwidth Interconnect.&quot; <i>GEvaluating Characteristics of CUDA Communication Primitives on High-Bandwidth Interconnect.</i>.'
 ---
