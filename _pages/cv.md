@@ -11,4 +11,4 @@ redirect_from:
 
 Resume
 ======
-You can download my full resume [here](files/ResumeLatex.pdf).
+You can download my full resume [here](../files/ResumeLatex.pdf).
