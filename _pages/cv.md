@@ -9,6 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-Resume
-======
+
 You can download my full resume [here](../files/ResumeSarahH.pdf).
