@@ -32,7 +32,11 @@ author_profile: true
   {% endfor %}
 {% endif %}
 
+{% capture markdown_content %}
 {% include_relative publications_projects.md %}
+{% endcapture %}
+{{ markdown_content | markdownify }}
+
 
 
 
